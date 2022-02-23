@@ -3,7 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.container{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-weight: bolder;
+   
+}
 section{
     position: relative;
     width: 100%;
@@ -65,3 +69,14 @@ section .loader:last-child .dot{
 display: inline-block;
 margin-top:12px;
 }
+.navbar-nav{
+    position: absolute;
+    right: 10px;
+}
+.collapse .navbar-nav .nav-item .nav-link{
+    color: black;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
