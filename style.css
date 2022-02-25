@@ -102,11 +102,12 @@ section .loader:last-child .dot {
 }
 
 .container {
-    border-left: 10px solid #00ff22;
-    border-right: 10px solid #00ff22;
+    border-left: 10px solid #00ccff;
+    border-right: 10px solid #00ccff;
 }
-
-.collapse .navbar-nav .nav-item button {
-    border: none;
-    margin-top: 8px;
+.collapse .navbar-nav .nav-item .form-check .form-check-input{
+height: 23px;
+width: 45px;
+margin-top: 9px;
+border-color: #00ccff;
 }
