@@ -5,7 +5,7 @@
 }
 
 .container {
-    font-family: 'Montserrat Subrayada', sans-serif;
+    font-family: 'Belleza', sans-serif;
     font-weight: bolder;
 }
 
@@ -104,6 +104,8 @@ section .loader:last-child .dot {
 }
 
 .navbar {
+    font-family: 'Montserrat Subrayada', sans-serif;
+
     border-left: 10px solid #0400ff;
     border-right: 10px solid #0400ff;
 }
@@ -122,5 +124,29 @@ border-color: #000;
     float: right;
 }
 .hero_photo img{
-    border-radius:51% 49% 53% 47% / 25% 26% 74% 75%;
+    border-radius:50px;
 }
+
+.hero_name h1 {
+
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 1.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 50% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    10% { border-color: orange; }
+  }

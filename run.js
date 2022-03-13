@@ -2,7 +2,7 @@ function load() {
     document.getElementById("time").style.display = "none";
     document.getElementById("port").style.display = "block";
 }
-setTimeout(load, 10);
+setTimeout(load, 1000);
 
 function myFunction1() {
     var element = document.body;
