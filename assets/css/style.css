@@ -343,9 +343,12 @@ section {
     padding: 60px 0;
     overflow: hidden;
 }
-
-.section-bg {
+.section-bg1 {
     background: #000;
+
+}
+.section-bg {
+    background: rgb(192, 192, 255);
 }
 
 .section-title {
