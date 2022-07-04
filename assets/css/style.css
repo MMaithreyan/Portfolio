@@ -26,17 +26,19 @@
 }
 .firstcol img{
     object-fit: cover;
-    width: 50%;
+    width: 40%;
 
 }
 .skill{
     text-align: center;
     padding-bottom: 50px;
+    align-items: baseline;
 }
 .names{
-    font-size: 40px;
-
-    
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    font-weight: bolder;
 }
 body {
     font-family: "Open Sans", sans-serif;
@@ -343,7 +345,7 @@ section {
 }
 
 .section-bg {
-    background: #f5f8fd;
+    background: #000;
 }
 
 .section-title {
@@ -356,7 +358,7 @@ section {
     margin-bottom: 20px;
     padding-bottom: 20px;
     position: relative;
-    color: #173b6c;
+    color: #1192ec;
 }
 
 .section-title h2::after {
