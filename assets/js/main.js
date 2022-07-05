@@ -1,3 +1,22 @@
+const handleVisibilityChange=( )=>{
+
+  if (document.visibilityState==="hidden") {
+  
+  console.log("user left the page")
+  let a=document.getElementsByClassName(".audio");
+  a.play();
+  } else {
+  
+  console.log("user opened the page ")
+  let b=document.getElementsByClassName(".audio");
+  b.pause();
+  }
+  
+  }
+  
+  document.addEventListener("visibilitychange", handleVisibilityChange);
+
+
 
 (function() {
   "use strict";
