@@ -9,7 +9,19 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@font-face {
+font-family: 'font';
+    src: url(/fonts/Poppins/Poppins-Medium.ttf);
+}
 
+body {
+    font-family: "font";
+    color: #000000;
+}
+.about{
+    line-height: 35px;
+    letter-spacing: 1px;
+}
 .download {
     border-radius: 10px;
     height: 50px;
@@ -26,9 +38,10 @@
 }
 .firstcol img{
     object-fit: cover;
-    width: 40%;
+    width: 20%;
 
 }
+
 .skill{
     text-align: center;
     padding-bottom: 50px;
@@ -40,9 +53,11 @@
     color: white;
     font-weight: bolder;
 }
-body {
-    font-family: "Open Sans", sans-serif;
-    color: #272829;
+.edu{
+    justify-content: center;
+}
+.cont{
+    margin: auto;
 }
 
 a {
@@ -63,7 +78,45 @@ h5,
 h6 {
     font-family: "Raleway", sans-serif;
 }
-
+.button-66 {
+    background-color: #0a6bff;
+    border-radius: 4px;
+    border: 0;
+    box-shadow: rgba(1,60,136,.5) 0 -1px 3px 0 inset,rgba(0,44,97,.1) 0 3px 6px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inherit;
+    font-family: "Space Grotesk",-apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0;
+    min-height: 56px;
+    min-width: 120px;
+    padding: 16px 20px;
+    position: relative;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    transition: all .2s cubic-bezier(.22, .61, .36, 1);
+  }
+  .button-66 a{
+      color: white;
+  }
+  
+  .button-66:hover {
+    background-color: #065dd8;
+    transform: translateY(-2px);
+  }
+  
+  @media (min-width: 768px) {
+    .button-66 {
+      padding: 16px 44px;
+      min-width: 150px;
+    }
+  }
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -526,7 +579,7 @@ section {
 .resume .resume-item {
     padding: 0 0 20px 20px;
     margin-top: -2px;
-    border-left: 2px solid #1f5297;
+    border-left: 2px solid #00f7ff;
     position: relative;
 }
 
@@ -978,7 +1031,7 @@ section {
     width: 100%;
     padding: 30px;
     background: #fff;
-    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 0 24px 0 rgba(0, 217, 255, 0.523);
 }
 
 .contact .php-email-form .form-group {
@@ -1045,7 +1098,7 @@ section {
 
 .contact .php-email-form input,
 .contact .php-email-form textarea {
-    border-radius: 0;
+    border-radius: 10px;
     box-shadow: none;
     font-size: 14px;
 }
