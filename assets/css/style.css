@@ -512,7 +512,9 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
-
+.resume{
+    justify-content: center;
+}
 .resume .resume-title {
     font-size: 26px;
     font-weight: 700;
@@ -816,7 +818,7 @@ section {
 
 .testimonials .testimonial-item .testimonial-img {
     width: 90px;
-    border-radius: 50%;
+    border-radius: 20%;
     margin: 0 auto;
 }
 
