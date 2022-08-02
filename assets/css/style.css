@@ -43,7 +43,7 @@ body {
 
 .firstcol img {
      object-fit: cover;
-     width: 15%;
+     width: 4rem;
 }
 
 .skill {
@@ -399,7 +399,7 @@ h6 {
 --------------------------------------------------------------*/
 
 section {
-     padding: 50px 50px 50px 50px;
+     padding: 50px 20px 50px 20px;
      overflow: hidden;
 }
 
